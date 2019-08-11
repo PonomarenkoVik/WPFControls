@@ -51,7 +51,7 @@ namespace PagingControl
                 d = PointDiameter;
 
             double x = (this.Width - (_from * d * 1.5) - 2.2 * d)/2;
-            Canv.Children.Clear();
+            //Canv.Children.Clear();
             for (int i = 0; i < _from; i++)
             {
                 x += d * 1.5;
@@ -61,7 +61,7 @@ namespace PagingControl
 
                 ell.SetValue(Canvas.LeftProperty, x);
                 ell.SetValue(Canvas.TopProperty, Height / 2 - d / 2);
-                Canv.Children.Add(ell);
+                //Canv.Children.Add(ell);
             }
 
         }

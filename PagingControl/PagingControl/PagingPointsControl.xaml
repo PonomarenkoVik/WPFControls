@@ -7,6 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="30" d:DesignWidth="300" Padding="0" Background="Gray" Foreground="White">
     <Grid>
-        <Canvas x:Name="Canv" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Gray"></Canvas>
+        <StackPanel Orientation="Horizontal">
+            <ItemsControl ItemsSource="{Binding Path=Items}">
+                
+            </ItemsControl>
+        </StackPanel>
     </Grid>
 </UserControl>

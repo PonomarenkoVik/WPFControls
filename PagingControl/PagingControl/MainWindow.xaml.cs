@@ -23,9 +23,9 @@ namespace PagingControl
         public MainWindow()
         {
             InitializeComponent();
-            PagingControl.PointDiameter = 9;
-            PagingControl.MinPointDiameter = 3;
-            PagingControl.SetPointsNumber(5, 10);
+            //PagingControl.PointDiameter = 9;
+            //PagingControl.MinPointDiameter = 3;
+            //PagingControl.SetPointsNumber(5, 10);
             
         }
     }

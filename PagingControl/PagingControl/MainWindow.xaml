@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PagingControl"
         mc:Ignorable="d"
-        Title="MainWindow" Height="50" Width="400" WindowStyle="None" Padding="0" ResizeMode="NoResize">
+        Title="MainWindow" Height="64" Width="436" WindowStyle="None" Padding="0" ResizeMode="NoResize">
     <Grid>
-        <local:PagingPointsControl x:Name="PagingControl" Height="15" Width="300" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5,0"></local:PagingPointsControl>
+        <!--<local:PagingPointsControl x:Name="PagingControl" Height="15" Width="300" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5,0"></local:PagingPointsControl>-->
+        <local:PageNavigationControl></local:PageNavigationControl>
     </Grid>
 </Window>
