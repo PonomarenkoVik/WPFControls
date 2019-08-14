@@ -69,23 +69,8 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PageNavigationControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="PagingPointsControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PageNavigationControl.xaml.cs">
-      <DependentUpon>PageNavigationControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PageNavigationView.cs" />
-    <Compile Include="PagingPointsControl.xaml.cs">
-      <DependentUpon>PagingPointsControl.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -110,6 +95,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ResourceLibrary\ResourceLibrary.csproj">
+      <Project>{c084a93c-64d6-4b23-95e0-8957a9150e4b}</Project>
+      <Name>ResourceLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
